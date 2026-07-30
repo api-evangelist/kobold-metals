@@ -1,8 +1,30 @@
 aid: kobold-metals
 name: KoBold Metals
-description: 'KoBold Metals is a company surfaced as a portfolio company of a16z, bond-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: american-dynamism. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'KoBold Metals is a critical-minerals exploration and development company
+  that applies artificial intelligence and machine learning to the search for the copper,
+  lithium, nickel and cobalt deposits needed for electrification. The company combines
+  three capabilities: novel sensor hardware and software that collect higher-quality
+  subsurface data faster, centralized data systems that organize disparate geological
+  information about the Earth''s crust, and predictive models that rank and target
+  exploration prospects. Its stated aim is to "turn exploration into a repeatable science."
+  Its flagship project is Mingomba in Zambia, described by the company as one of the
+  best copper deposits ever found and positioned to become one of the world''s largest
+  copper mines. KoBold is venture-backed (investors include a16z and Bond Capital)
+  and operates as a private exploration company. As of this profile it publishes no
+  public developer API, SDK, or developer portal; the public surface is a corporate
+  marketing, science, careers and news site.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://koboldmetals.com/wp-content/uploads/2025/11/koboldmetals-og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/kobold-metals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,21 @@ x-backed-by:
 - bond-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - American Dynamism
+- Critical Minerals
+- Mining
+- Mineral Exploration
+- Artificial Intelligence
+- Machine Learning
+- Geoscience
+- Energy Transition
+- Copper
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +56,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kobold.ai
+  url: https://koboldmetals.com/
+- type: Blog
+  url: https://koboldmetals.com/blog/
+- type: BlogRSS
+  url: https://koboldmetals.com/feed/
+- type: News
+  url: https://koboldmetals.com/news/
+- type: Support
+  url: https://koboldmetals.com/contact/
+- type: PrivacyPolicy
+  url: https://koboldmetals.com/privacy-policy/
+- type: TermsOfService
+  url: https://koboldmetals.com/terms-of-use/
+- type: Careers
+  url: https://koboldmetals.com/careers/
+- type: Twitter
+  url: https://x.com/kobold_metals
+- type: DomainSecurity
+  url: security/kobold-metals-domain-security.yml
+- type: LLMsTxt
+  url: llms/kobold-metals-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
