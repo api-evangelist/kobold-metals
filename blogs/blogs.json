@@ -1,0 +1,28 @@
+{
+  "repo": "kobold-metals",
+  "feeds": [
+    {
+      "source": "https://koboldmetals.com/feed/",
+      "feed_url": "https://koboldmetals.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://koboldmetals.com/",
+      "feed_url": "https://koboldmetals.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://koboldmetals.com/blog/",
+      "feed_url": "https://koboldmetals.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 6,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://koboldmetals.com/.well-known/*
+host: https://koboldmetals.com
+description: >-
+  KoBold Metals publishes no /.well-known/ discovery surface. Every probed path
+  returns 404 (requests to the www host 301-redirect to the apex, which then
+  404s with the site's standard WordPress not-found page). Recorded so later
+  rounds do not re-probe blindly; no WellKnown or SecurityTxt pointer is wired
+  because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
