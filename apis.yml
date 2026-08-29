@@ -13,6 +13,17 @@ description: 'KoBold Metals is a critical-minerals exploration and development c
   and operates as a private exploration company. As of this profile it publishes no
   public developer API, SDK, or developer portal; the public surface is a corporate
   marketing, science, careers and news site.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
